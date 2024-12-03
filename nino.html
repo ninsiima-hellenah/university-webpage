@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Manipulation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nino</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td></td>
+        </tr>
+        <tr><td><input type="text" id="second number" value="15"></td></tr>
+    </table>
+    <input type="text" id="first number" value="10">
+    <p id="result">0</p>
+    <script>
+        var num1, num2, sum;
+        num1 = document.getElementById( "first number" ).value;
+        num2 = document.getElementById( "second number").value;
+        alert("You entered" + num1 " and " + num2 + ".");
+        sum = parseInt(num1)+ parseInt(num2)
+    // sum =  num1 * num 2;
+    // var p = document.getElementById("result");
+    // p.innerHTML = sum;
+document.getElementById("result").innerhtml = sum; 
+    </script>
+</body>
+</html>
